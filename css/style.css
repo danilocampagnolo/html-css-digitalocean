@@ -1,0 +1,16 @@
+body {
+
+}
+
+.header_top {
+  height: 70px;
+  background-color: red;
+}
+.menu_header ul li {
+  display: inline;
+}
+
+.jumbo {
+  height: 500px;
+  background-color: green;
+}
