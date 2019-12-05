@@ -19,3 +19,8 @@ body {
   height: 270px;
   background-color: grey;
 }
+
+#skills {
+  height: 700px;
+  background-color: yellow;
+}
