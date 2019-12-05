@@ -2,6 +2,25 @@ body {
   font-size: 14px;
 }
 
+h1 {
+  font-size: 3.8em;
+}
+p {
+  font-size: 1.7em;
+}
+
+.text_white {
+  color: white;
+}
+.text_blue {
+  color: #2285FD;
+}
+
+.box_white {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
 /* HEADER_TOP */
 .header_top {
   position: fixed;
@@ -19,6 +38,9 @@ body {
   transform: translateY(-4px);
 }
 
+.menu_header ul {
+  padding-left: 0;
+}
 .menu_header ul li {
   display: inline;
   margin-right: 15px;
@@ -54,12 +76,80 @@ body {
 
 /* JUMBO */
 .jumbo {
-  height: 500px;
   margin-top: 60px;
-  background-color: green;
+  background-image: url(../img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+.jumbo h1 {
+  padding-top: 40px;
+}
+.jumbo p {
+  padding-bottom: 40px;
+}
+.jumbo .box_white {
+  margin-top: 50px;
+}
 
+.box_form h3 {
+  padding-top: 10px;
+}
+.box_form .text_blue {
+  padding: 0;
+  margin-top: 10px;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+.form_account .col-sm-10 {
+  width: 100%;
+}
+
+.btn_blue {
+  width: 100%;
+  background-color: #2285FD;
+  margin-bottom: 7px;
+}
+.btn_blue a {
+  color: #fff;
+}
+.btn_blue:hover {
+  background-color: #1633ff;
+}
+.btn_blue a:hover,
+.btn_blue a:active,
+.btn_blue a:focus {
+  text-decoration: none;
+}
+
+.btn_google {
+  position: relative;
+  width: 100%;
+  box-shadow: 2px 2px 2px #E3E3E3;
+  margin-bottom: 15px;
+}
+.btn_google img {
+  width: 20px;
+}
+.btn_google div {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  margin-left: 10px;
+}
+#text_btn_google {
+  font-size: 1em;
+  color: #4C4C4C;
+  padding: 0;
+  margin: 0;
+}
+
+.box_form p {
+  font-size: 1em;
+  padding-bottom: 20px;
+}
+/* LOGOS */
 #logos {
   height: 270px;
   background-color: grey;
