@@ -14,3 +14,8 @@ body {
   height: 500px;
   background-color: green;
 }
+
+#logos {
+  height: 270px;
+  background-color: grey;
+}
