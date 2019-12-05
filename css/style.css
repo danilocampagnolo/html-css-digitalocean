@@ -21,6 +21,15 @@ body {
 }
 
 #skills {
-  height: 700px;
+  height: 500px;
   background-color: yellow;
+}
+
+#design {
+    height: 500px;
+}
+
+#features {
+  height: 300px;
+  background-color: orange;
 }
