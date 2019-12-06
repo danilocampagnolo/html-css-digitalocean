@@ -1,13 +1,12 @@
 body {
-  font-size: 14px;
   color: #031B4E;
 }
 
 h1 {
-  font-size: 3.8em;
+  font-size: 52px;
 }
 p {
-  font-size: 1.7em;
+  font-size: 24px;
   color: #5C6B8D;
 }
 
@@ -151,7 +150,7 @@ a:hover {
   margin-left: 10px;
 }
 #text_btn_google {
-  font-size: 1em;
+  font-size: 16px;
   color: #4C4C4C;
   padding: 0;
   margin: 0;
@@ -163,9 +162,8 @@ a:hover {
   background-color: #d5e4f7;
 }
 
-
 .box_form p {
-  font-size: 1em;
+  font-size: 16px;
   padding-bottom: 20px;
   color: #031C4E;
 }
@@ -199,7 +197,7 @@ a:hover {
   text-decoration: none;
 }
 .btn span {
-  font-size: 0.7em;
+  font-size: 10px;
   margin-left: 5px;
 }
 
@@ -210,7 +208,7 @@ a:hover {
 }
 .title_skills p {
   color: #5C6B8D;
-  font-size: 1.5em;
+  font-size: 20px;
   padding-bottom: 50px;
 }
 
@@ -223,7 +221,7 @@ a:hover {
 }
 #skills ul li a {
   color: #5C6B8D;
-  font-size: 1.2em;
+  font-size: 16px;
 }
 #skills ul li a:hover {
   color: #031B4E;
@@ -234,7 +232,7 @@ a:hover {
   padding-bottom: 5px;
 }
 .col_grid p {
-  font-size: 1.2em;
+  font-size: 16px;
   margin-bottom: 30px;
 }
 .col_grid p.grid_p_bottom {
@@ -275,7 +273,7 @@ p.grid_p_top {
 }
 .footer div {
   height: 100px;
-  border:2px solid black;
+  border: 2px solid black;
 }
 
 /* MEDIA-QUERY */
@@ -292,10 +290,11 @@ p.grid_p_top {
 }
 
   /* xs */
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 3em;
+@media screen and (max-width: 992px) {
+  h2 {
+    font-size: 40px;
   }
+/*JUMBO*/
   .jumbo .col-xs-12:last-child {
     margin-top: 0;
     margin-bottom: 80px;
@@ -304,8 +303,9 @@ p.grid_p_top {
     padding-bottom: 5px;
   }
 
+/* LOGOS */
   #logos h5 {
-    font-size: 1.5em;
+    font-size: 20px;
   }
   #logos img {
     width: 70%;
@@ -324,13 +324,21 @@ p.grid_p_top {
     transform: translateY(30%);
   }
 
-  p.grid_p_top {
-    /* margin-bottom: 10px; */
+/* SKILLS */
+  #skills .wrapper_80 {
+    width: 100%;
   }
+
   .col_grid p {
     margin-bottom: 10px;
   }
   .col_grid p.grid_p_bottom {
     margin-bottom: 10px;
+  }
+  .first_xs_row {
+    padding-top: 20px;
+  }
+  .last_xs_row {
+    padding-bottom: 50px;
   }
 }
