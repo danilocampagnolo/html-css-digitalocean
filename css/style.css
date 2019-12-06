@@ -283,7 +283,7 @@ p.grid_p_top {
   color: #031C4E;
   margin-bottom: 5px;
 }
-/*  */
+
 .ball_under_slider {
   display: inline-block;
   width: 10px;
@@ -298,7 +298,6 @@ p.grid_p_top {
 .ball_under_slider:first-child {
   background-color: #006AFF;
 }
-/*  */
 
 #features {
   height: 300px;
@@ -418,6 +417,9 @@ p.grid_p_top {
   }
 
   /* SLIDER_1 */
+  #slider_1 .wrapper_80 {
+    width: 100%;
+  }
   .p_under_slider p {
     margin-bottom: 70px;
   }
