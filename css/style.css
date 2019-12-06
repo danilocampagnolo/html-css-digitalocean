@@ -175,7 +175,7 @@ p {
 #gitlab {
   transform: translateY(-10%);
 }
-.btn {
+#logos .btn {
   padding-bottom: 20px;
 }
 .btn a:hover,
