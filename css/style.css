@@ -32,6 +32,18 @@ a:hover {
   background-color: #fff;
   border-radius: 5px;
 }
+.back_grey {
+  background-color: #F3F5F9;
+}
+
+
+.title_section h2 {
+  margin-top: 50px;
+}
+.title_section p {
+  font-size: 20px;
+  padding-bottom: 50px;
+}
 
 /* HEADER_TOP */
 .header_top {
@@ -150,7 +162,7 @@ a:hover {
   margin-left: 10px;
 }
 #text_btn_google {
-  font-size: 16px;
+  font-size: 14px;
   color: #4C4C4C;
   padding: 0;
   margin: 0;
@@ -163,14 +175,11 @@ a:hover {
 }
 
 .box_form p {
-  font-size: 16px;
+  font-size: 12px;
   padding-bottom: 20px;
   color: #031C4E;
 }
 /* LOGOS */
-#logos {
-  background-color: #F3F5F9;
-}
 
 #logos h5 {
   color: #5C6B8D;
@@ -197,20 +206,12 @@ a:hover {
   text-decoration: none;
 }
 .btn span {
-  font-size: 10px;
+  font-size: 14px;
   margin-left: 5px;
 }
 
 
 /* SKILLS */
-#skills h2 {
-  margin-top: 50px;
-}
-.title_skills p {
-  color: #5C6B8D;
-  font-size: 20px;
-  padding-bottom: 50px;
-}
 
 #skills ul li {
   border-top: none;
@@ -242,11 +243,33 @@ p.grid_p_top {
   margin-bottom: 52px;
 }
 
-
-#slider_1 {
-  height: 500px;
-  background-color: yellow;
+/* SLIDER-1 */
+#slider_1 .title_section p {
+  padding-top: 20px;
 }
+.img_slider img {
+  width: 40%;
+  margin-bottom: 20px;
+}
+.img_slider:after {
+  content: ">";
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 20px;
+  color: #031C4E;
+}
+.img_slider:before {
+  content: "<";
+  font-size: 30px;
+  font-weight: bolder;
+  margin-right: 20px;
+  color: #6F7A97;
+}
+
+
+
+
+
 
 #features {
   height: 300px;
@@ -294,6 +317,7 @@ p.grid_p_top {
   h2 {
     font-size: 40px;
   }
+
 /*JUMBO*/
   .jumbo .col-xs-12:last-child {
     margin-top: 0;
