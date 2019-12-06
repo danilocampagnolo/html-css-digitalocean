@@ -223,6 +223,7 @@ a:hover {
 }
 #skills ul li a {
   color: #5C6B8D;
+  font-size: 1.2em;
 }
 #skills ul li a:hover {
   color: #031B4E;
@@ -234,8 +235,12 @@ a:hover {
 }
 .col_grid p {
   font-size: 1.2em;
+  margin-bottom: 30px;
 }
 
+.col_grid p.grid_p_bottom {
+  margin-bottom: 60px;
+}
 
 
 
