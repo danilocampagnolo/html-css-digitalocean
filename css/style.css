@@ -9,6 +9,12 @@ p {
   font-size: 1.7em;
 }
 
+a:focus,
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
 .text_white {
   color: white;
 }
@@ -50,7 +56,6 @@ p {
 }
 .menu_header ul li a {
   color: black;
-  text-decoration: none;
 }
 .menu_header ul li a:hover {
   color: #2285FD;
@@ -120,11 +125,6 @@ p {
 .btn_blue:hover {
   background-color: #1633ff;
 }
-.btn_blue a:hover,
-.btn_blue a:active,
-.btn_blue a:focus {
-  text-decoration: none;
-}
 
 .btn_google {
   position: relative;
@@ -148,6 +148,13 @@ p {
   padding: 0;
   margin: 0;
 }
+
+.btn_google:hover,
+.btn_google:active,
+.btn_google:focus {
+  background-color: #d5e4f7;
+}
+
 
 .box_form p {
   font-size: 1em;
@@ -176,6 +183,7 @@ p {
 }
 #logos .btn {
   padding-bottom: 20px;
+  font-weight: 500;
 }
 #logos .btn a:hover,
 #logos .btn a:active,
@@ -189,13 +197,23 @@ p {
 
 
 /* SKILLS */
-#skills {
-  height: 500px;
-  background-color: yellow;
+#skills h2 {
+  margin-top: 50px;
+}
+#skills p {
+  color: #5C6B8D;
+  font-size: 1.5em;
+  padding-bottom: 50px;
 }
 
+
+
+
+
+
 #slider_1 {
-    height: 500px;
+  height: 500px;
+  background-color: yellow;
 }
 
 #features {
