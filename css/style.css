@@ -156,10 +156,40 @@ p {
 }
 /* LOGOS */
 #logos {
-  height: 270px;
-  background-color: grey;
+  background-color: #F3F5F9;
 }
 
+#logos h5 {
+  color: #5C6B8D;
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+#logos img {
+  width: 100%;
+}
+.col_logos {
+  height: 100px;
+  line-height: 100px;
+  /* margin-bottom: 30px; */
+}
+#gitlab {
+  transform: translateY(-10%);
+}
+.btn {
+  padding-bottom: 20px;
+}
+.btn a:hover,
+.btn a:active,
+.btn a:focus {
+  text-decoration: none;
+}
+.btn span {
+  font-size: 0.7em;
+  margin-left: 5px;
+}
+
+
+/* SKILLS */
 #skills {
   height: 500px;
   background-color: yellow;
