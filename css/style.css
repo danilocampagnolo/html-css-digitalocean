@@ -237,11 +237,12 @@ a:hover {
   font-size: 1.2em;
   margin-bottom: 30px;
 }
-
 .col_grid p.grid_p_bottom {
   margin-bottom: 60px;
 }
-
+p.grid_p_top {
+  margin-bottom: 52px;
+}
 
 
 #slider_1 {
@@ -287,10 +288,11 @@ a:hover {
   #gitlab {
     transform: translateY(0%);
   }
+
 }
 
   /* xs */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 3em;
   }
@@ -320,5 +322,15 @@ a:hover {
   }
   #splunk {
     transform: translateY(30%);
+  }
+
+  p.grid_p_top {
+    /* margin-bottom: 10px; */
+  }
+  .col_grid p {
+    margin-bottom: 10px;
+  }
+  .col_grid p.grid_p_bottom {
+    margin-bottom: 10px;
   }
 }
