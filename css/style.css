@@ -178,9 +178,9 @@ p {
 #logos .btn {
   padding-bottom: 20px;
 }
-.btn a:hover,
-.btn a:active,
-.btn a:focus {
+#logos .btn a:hover,
+#logos .btn a:active,
+#logos .btn a:focus {
   text-decoration: none;
 }
 .btn span {
