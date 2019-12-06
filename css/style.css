@@ -216,6 +216,7 @@ a:hover {
 #logos .btn a:active,
 #logos .btn a:focus {
   text-decoration: none;
+  color: #005fe6;
 }
 .btn span {
   font-size: 14px;
@@ -280,7 +281,7 @@ p.grid_p_top {
 }
 
 .p_under_slider p {
-  font-size: 14px;
+  font-size: 16px;
   color: #031C4E;
   margin-bottom: 5px;
 }
@@ -306,10 +307,26 @@ p.grid_p_top {
 }
 #features h4 {
   font-weight: 700;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-
-
+#features p {
+  font-size: 16px;
+}
+#features .row:last-child {
+  margin-bottom: 70px;
+}
+#features .btn {
+  padding-left: 0;
+  font-size: 16px;
+}
+#features span {
+  font-size: 16px;
+}
+#features .btn:hover {
+  color: #005fe6;
+}
 
 
 #speed_test {
@@ -440,6 +457,11 @@ p.grid_p_top {
   }
   .img_slider:before {
     content: "";
+  }
+
+  /* FEATURES  */
+  #features img {
+    padding-top: 20px;
   }
 
 }
