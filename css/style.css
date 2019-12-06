@@ -1,5 +1,6 @@
 body {
   font-size: 14px;
+  color: #031B4E;
 }
 
 h1 {
@@ -7,6 +8,12 @@ h1 {
 }
 p {
   font-size: 1.7em;
+  color: #5C6B8D;
+}
+
+.wrapper_80 {
+  width: 80%;
+  margin: 0 auto;
 }
 
 a:focus,
@@ -117,6 +124,7 @@ a:hover {
   width: 100%;
   background-color: #2285FD;
   margin-bottom: 7px;
+  margin-top: 5px;
 }
 .btn_blue a {
   color: #fff;
@@ -200,13 +208,33 @@ a:hover {
 #skills h2 {
   margin-top: 50px;
 }
-#skills p {
+.title_skills p {
   color: #5C6B8D;
   font-size: 1.5em;
   padding-bottom: 50px;
 }
 
+#skills ul li {
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border-left: 2px solid #C4C4C4;
+  border-radius: 0px;
+}
+#skills ul li a {
+  color: #5C6B8D;
+}
+#skills ul li a:hover {
+  color: #031B4E;
+}
 
+.col_grid h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.col_grid p {
+  font-size: 1.2em;
+}
 
 
 
