@@ -251,5 +251,23 @@ p {
     padding-bottom: 5px;
   }
 
-
+  #logos h5 {
+    font-size: 1.5em;
+  }
+  #logos img {
+    width: 70%;
+  }
+  .col_logos {
+    height: 150px;
+    line-height: normal;
+  }
+  #gitlab {
+    transform: translateY(-15%);
+  }
+  #hashcorp {
+    transform: translateY(10%);
+  }
+  #splunk {
+    transform: translateY(30%);
+  }
 }
