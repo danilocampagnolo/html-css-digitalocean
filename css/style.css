@@ -387,6 +387,7 @@ p.grid_p_top {
   .col_logos {
     height: 150px;
     line-height: normal;
+    margin-top: 50px;
   }
   #gitlab {
     transform: translateY(-15%);
