@@ -5,6 +5,15 @@ body {
 
 h1 {
   font-size: 52px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 600;
 }
 p {
   font-size: 24px;
@@ -32,11 +41,11 @@ a:hover {
 .box_white {
   background-color: #fff;
   border-radius: 5px;
+  padding:20px;
 }
 .back_grey {
   background-color: #F3F5F9;
 }
-
 
 .title_section h2 {
   margin-top: 50px;
@@ -46,7 +55,7 @@ a:hover {
   padding-bottom: 50px;
 }
 
-/* HEADER_TOP */
+/* ==================HEADER_TOP==================== */
 .header_top {
   position: fixed;
   top: 0;
@@ -98,7 +107,7 @@ a:hover {
   color: #2285FD;
 }
 
-/* JUMBO */
+/* ==================JUMBO==================== */
 .jumbo {
   margin-top: 60px;
   background-image: url(../img/jumbotron.jpg);
@@ -131,6 +140,9 @@ a:hover {
 .form_account .col-sm-10 {
   width: 100%;
 }
+.form_account .col-sm-10 ::placeholder {
+  color: #757575;
+}
 
 .btn_blue {
   width: 100%;
@@ -139,8 +151,8 @@ a:hover {
   margin-top: 5px;
 }
 .btn_blue a {
+  font-size: 16px;
   color: #fff;
-  font-weight: bolder;
 }
 .btn_blue:hover {
   background-color: #1633ff;
@@ -151,7 +163,6 @@ a:hover {
   width: 100%;
   box-shadow: 2px 2px 2px #E3E3E3;
   margin-bottom: 15px;
-  font-weight: bolder;
 }
 .btn_google img {
   width: 20px;
@@ -163,7 +174,7 @@ a:hover {
   margin-left: 10px;
 }
 #text_btn_google {
-  font-size: 14px;
+  font-size: 16px;
   color: #4C4C4C;
   padding: 0;
   margin: 0;
@@ -176,11 +187,11 @@ a:hover {
 }
 
 .box_form p {
-  font-size: 12px;
+  font-size: 14px;
   padding-bottom: 20px;
   color: #031C4E;
 }
-/* LOGOS */
+/* ==================LOGOS==================== */
 
 #logos h5 {
   color: #5C6B8D;
@@ -212,7 +223,7 @@ a:hover {
 }
 
 
-/* SKILLS */
+/* ==================SKILLS==================== */
 
 #skills ul li {
   border-top: none;
@@ -244,7 +255,7 @@ p.grid_p_top {
   margin-bottom: 52px;
 }
 
-/* SLIDER-1 */
+/* ==================SLIDER-1==================== */
 #slider_1 .title_section p {
   padding-top: 20px;
 }
@@ -272,7 +283,7 @@ p.grid_p_top {
   color: #031C4E;
   margin-bottom: 5px;
 }
-
+/*  */
 .ball_under_slider {
   display: inline-block;
   width: 10px;
@@ -287,10 +298,7 @@ p.grid_p_top {
 .ball_under_slider:first-child {
   background-color: #006AFF;
 }
-
-
-
-
+/*  */
 
 #features {
   height: 300px;
@@ -320,36 +328,42 @@ p.grid_p_top {
   border: 2px solid black;
 }
 
-/* MEDIA-QUERY */
-  /* md */
- @media all and (min-width: 768px) and (max-width: 992px) {
-  /* .jumbo .col-xs-12:last-child {
-    margin-top: 80px;
-    margin-bottom: 80px;
+/* ==================MEDIAQUERY==================== */
+
+          /* =========== M D ============= */
+ @media screen and (max-width: 991px) {
+
+  /* JUMBO */
+  .jumbo .box_white {
+    margin-top: 50px;
+    margin-bottom: 60px;
   }
+  .box_form h3 {
+    padding-top: 0px;
+    font-size: 30px;
+  }
+
+/* LOGOS */
   #gitlab {
     transform: translateY(0%);
-  } */
-
-  .img_slider:after {
-    content: ">";
-    font-size: 30px;
-    font-weight: bolder;
-    margin-left: 10px;
-    color: #031C4E;
   }
-  .img_slider:before {
-    content: "<";
-    font-size: 30px;
-    font-weight: bolder;
-    margin-right: 10px;
-    color: #6F7A97;
+  #logos h5 {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+  #logos a {
+    font-size: 18px;
   }
 
+  /* SKILLS */
+  p.grid_p_top {
+    margin-bottom: 73px;
+  }
 }
 
-  /* xs */
- @media all and (max-width: 768px) {
+          /* =========== X S ============= */
+ @media screen and (max-width: 767px) {
   h2 {
     font-size: 40px;
   }
