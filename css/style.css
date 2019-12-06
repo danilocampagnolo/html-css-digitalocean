@@ -87,9 +87,11 @@ p {
 }
 .jumbo p {
   padding-bottom: 40px;
+  color: #BBCCFF;
 }
 .jumbo .box_white {
   margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 .box_form h3 {
@@ -113,6 +115,7 @@ p {
 }
 .btn_blue a {
   color: #fff;
+  font-weight: bolder;
 }
 .btn_blue:hover {
   background-color: #1633ff;
@@ -128,6 +131,7 @@ p {
   width: 100%;
   box-shadow: 2px 2px 2px #E3E3E3;
   margin-bottom: 15px;
+  font-weight: bolder;
 }
 .btn_google img {
   width: 20px;
@@ -148,6 +152,7 @@ p {
 .box_form p {
   font-size: 1em;
   padding-bottom: 20px;
+  color: #031C4E;
 }
 /* LOGOS */
 #logos {
@@ -194,6 +199,23 @@ p {
 
 /* MEDIA-QUERY */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
+  .jumbo .col-xs-12:last-child {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
 
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 3em;
+  }
+  .jumbo .col-xs-12:last-child {
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+  .jumbo p {
+    padding-bottom: 5px;
+  }
 }
