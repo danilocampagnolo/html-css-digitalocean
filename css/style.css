@@ -170,7 +170,6 @@ p {
 .col_logos {
   height: 100px;
   line-height: 100px;
-  /* margin-bottom: 30px; */
 }
 #gitlab {
   transform: translateY(-10%);
@@ -228,14 +227,18 @@ p {
 }
 
 /* MEDIA-QUERY */
-
+  /* md */
 @media screen and (max-width: 1200px) {
   .jumbo .col-xs-12:last-child {
     margin-top: 80px;
     margin-bottom: 80px;
   }
+  #gitlab {
+    transform: translateY(0%);
+  }
 }
 
+  /* xs */
 @media screen and (max-width: 992px) {
   h1 {
     font-size: 3em;
@@ -247,4 +250,6 @@ p {
   .jumbo p {
     padding-bottom: 5px;
   }
+
+
 }
