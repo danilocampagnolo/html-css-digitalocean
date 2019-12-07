@@ -351,17 +351,25 @@ p.grid_p_top {
 
 .cities_code {
   position: absolute;
-  left: 5;
+  left: 15px;
+  text-transform: uppercase;
 }
 
 .name_cities {
   position: absolute;
-  left: 100px;
+  left: 110px;
 }
 
 .link_speed {
   position: absolute;
-  right: 0;
+  right: 15px;
+}
+.link_speed a {
+
+}
+.link_speed:after {
+  content: ">";
+  margin-left: 10px;
 }
 
 
