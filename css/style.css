@@ -328,11 +328,34 @@ p.grid_p_top {
   color: #005fe6;
 }
 
-
+/* ==================SPEED-TEST==================== */
 #speed_test {
-  height: 300px;
-  background-color: blue;
+  background: linear-gradient(0deg, rgba(0,31,154,1) 0%, rgba(0,71,197,1) 100%);
 }
+
+#speed_test .title_section {
+  color: #fff;
+}
+.cities {
+  padding: 5px 0;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+.cities:last-child {
+  border-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+.cities_code
+
+.name_cities
+
+.link_speed a
+
+
+
+
+
 
 #slider_2 {
     height: 500px;
