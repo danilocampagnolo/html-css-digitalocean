@@ -337,7 +337,10 @@ p.grid_p_top {
   color: #fff;
 }
 .cities {
-  padding: 5px 0;
+  position: relative;
+  width: 100;
+  height: 40px;
+  padding: 10px 0;
   color: #fff;
   border-bottom: 1px solid #fff;
 }
@@ -346,11 +349,20 @@ p.grid_p_top {
   margin-bottom: 50px;
 }
 
-.cities_code
+.cities_code {
+  position: absolute;
+  left: 5;
+}
 
-.name_cities
+.name_cities {
+  position: absolute;
+  left: 100px;
+}
 
-.link_speed a
+.link_speed {
+  position: absolute;
+  right: 0;
+}
 
 
 
