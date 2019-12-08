@@ -24,10 +24,6 @@ p {
   width: 80%;
   margin: 0 auto;
 }
-.wrapper_50 {
-  width: 50%;
-  margin: 0 auto;
-}
 
 a:focus,
 a:active,
@@ -47,8 +43,12 @@ a:hover {
   border-radius: 5px;
   padding:20px;
 }
+
 .back_grey {
   background-color: #F3F5F9;
+}
+.back_gradient_blue {
+  background: linear-gradient(0deg, rgba(0,31,154,1) 0%, rgba(0,71,197,1) 100%);
 }
 
 .title_section h2 {
@@ -351,10 +351,6 @@ p.grid_p_top {
 }
 
 /* ==================SPEED-TEST==================== */
-#speed_test {
-  background: linear-gradient(0deg, rgba(0,31,154,1) 0%, rgba(0,71,197,1) 100%);
-}
-
 #speed_test .title_section {
   color: #fff;
 }
@@ -396,7 +392,7 @@ p.grid_p_top {
   color: #005fe6;
 }
 
-/* ==================SLIDER-1==================== */
+/* ==================SLIDER-2==================== */
 
 #slider_2 .title_section h2 {
   margin-bottom: 70px;
@@ -419,7 +415,7 @@ p.grid_p_top {
   font-size: 20px;
 }
 
-p.name_cit {
+#slider_2 p.name_cit {
   font-size: 16px;
   color: #000000;
   margin-bottom: 30px;
@@ -434,13 +430,16 @@ p.name_cit {
   margin-top: 30px;
 }
 
-
-
-
-#account {
-  height: 200px;
-  background-color: red;
+/* ==================ACCOUNT==================== */
+#account a {
+  color: #0067FF;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
+
+
+
 
 .footer {
   height: 300px;
