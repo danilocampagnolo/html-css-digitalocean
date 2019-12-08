@@ -217,6 +217,9 @@ a:hover {
   padding-bottom: 20px;
   color: #031C4E;
 }
+.box_form p a {
+  font-size: 14px;
+}
 /* ==================LOGOS==================== */
 
 #logos h5 {
