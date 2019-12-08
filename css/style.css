@@ -468,7 +468,7 @@ margin-right: 10px;
 }
 .footer ul {
   padding-left: 0;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .footer li {
   list-style: none;
@@ -512,6 +512,15 @@ margin-right: 10px;
   /* SKILLS */
   p.grid_p_top {
     margin-bottom: 73px;
+  }
+
+  /* FOOTER */
+  .footer h4 {
+    color: #fff;
+    margin-top: 15px;
+}
+  .margin_xs_md_10 ul {
+    margin-bottom: 10px;
   }
 }
 
