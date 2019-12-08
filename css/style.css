@@ -510,7 +510,7 @@ margin-right: 10px;
   vertical-align: middle;
 }
 
-.helper_dialog {
+.helper_text {
   position: absolute;
   left:-320px;
   top: -50px;
@@ -606,7 +606,7 @@ margin-right: 10px;
     bottom: 100px;
     left: 20px;
   }
-  .helper_dialog {
+  .helper_text {
     left: 0px;
     top: 20px;
   }
