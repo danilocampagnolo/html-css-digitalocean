@@ -365,11 +365,13 @@ p.grid_p_top {
   right: 15px;
 }
 .link_speed a {
-
+  color: #00CECF;
 }
-.link_speed:after {
-  content: ">";
-  margin-left: 10px;
+.link_speed span {
+  margin-left: 5px;
+}
+.link_speed a:hover {
+  color: #005fe6;
 }
 
 
