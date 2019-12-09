@@ -234,6 +234,9 @@ a:hover {
 #logos img {
   width: 100%;
 }
+#logos img:hover {
+  cursor: pointer;
+}
 .col_logos {
   height: 100px;
   line-height: 100px;
