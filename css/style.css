@@ -72,6 +72,10 @@ a:hover {
   font-size: 30px;
   color: #6F7A97;
 }
+.glyphicon.glyphicon-chevron-left:hover,
+.glyphicon.glyphicon-chevron-right:hover {
+  cursor: pointer
+}
 .glyphicon.glyphicon-chevron-right {
   position: absolute;
   top:50%;
